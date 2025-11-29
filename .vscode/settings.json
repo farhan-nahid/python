@@ -1,0 +1,7 @@
+{
+  "biome.enabled": false,
+  "prettier.enable": false,
+  "github.copilot.enable": {
+    "python": false
+  }
+}

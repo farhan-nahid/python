@@ -3,5 +3,6 @@
   "prettier.enable": false,
   "github.copilot.enable": {
     "python": false
-  }
+  },
+  "editor.tabSize": 4
 }

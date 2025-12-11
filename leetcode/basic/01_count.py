@@ -1,7 +1,7 @@
 from math import log10
 
-def count(n):
-    """
+
+"""
     Counts the number of digits in an integer using repeated division.
 
     Time Complexity (TC): O(log₁₀(n))
@@ -11,6 +11,9 @@ def count(n):
     Space Complexity (SC): O(1)
         - Uses a constant amount of extra space.
     """
+
+
+def count(n):
     num = n
     count = 0
 
@@ -23,16 +26,9 @@ def count(n):
 print(count(54381233))
 
 
+
+
 def count_with_log(n):
-    """
-    Counts digits using logarithm.
-
-    Time Complexity (TC): O(1)
-        - Uses a single mathematical operation (log10), no loops.
-
-    Space Complexity (SC): O(1)
-        - No additional space used except a few variables.
-    """
     return int(log10(n) + 1)
 
 
